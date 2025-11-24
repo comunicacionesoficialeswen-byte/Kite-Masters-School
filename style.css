@@ -1,0 +1,131 @@
+/* ------------------- */
+/* GENERAL */
+/* ------------------- */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5faff;
+  color: #003249;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ------------------- */
+/* HEADER */
+/* ------------------- */
+
+header {
+  background: #0077b6;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------- */
+/* HERO */
+/* ------------------- */
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1540555700478-4be289fbecef") center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+/* ------------------- */
+/* GRID DE CURSOS */
+/* ------------------- */
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+.course-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.course-card h3 {
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+
+.course-card p {
+  font-size: 1rem;
+  color: #005f73;
+}
+
+.btn {
+  display: inline-block;
+  background: #0096c7;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 12px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background: #0077b6;
+}
+
+/* ------------------- */
+/* PÁGINAS DE CURSO */
+/* ------------------- */
+
+.course-page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.course-page img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+/* ------------------- */
+/* FOOTER */
+/* ------------------- */
+
+footer {
+  background: #003459;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
